@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n=1;
+    loop:
+    cout<<n<<".C++"<<endl;
+    n++;
+    if(n<=5)goto loop;
+    cout<<"end of program";
+    return 0;
+}
